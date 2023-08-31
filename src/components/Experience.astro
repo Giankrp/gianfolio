@@ -1,0 +1,117 @@
+
+---
+import Contact from "./Contact.astro" 
+---
+
+<!-- Encabezado -->
+
+<header class="bg-purple-500 text-white py-8">
+  <div class="container mx-auto text-center">
+    <h1 class="text-4xl font-bold">Aqui algunos de mis proyectos</h1>
+    <p class="mt-2 text-lg">
+      ¡Bienvenido! Aquí puedes ver mis proyectos y habilidades.
+    </p>
+  </div>
+</header>
+
+<!-- Sección de Proyectos -->
+<section class="py-12">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-semibold mb-8 text-center">
+      Mis Proyectos Destacados
+    </h2>
+
+    <div class="max-w-screen-lg mx-auto space-y-8">
+      <!-- Proyecto 1 -->
+      <div
+        class="bg-gray-700 shadow-lg rounded-lg p-8 transition transform hover:scale-105"
+      >
+        <h3 class="text-xl font-bold mb-4 text-white">Talent Forgers</h3>
+        <p class="text-white">
+          Esta fue mi primera experiencia en un proyecto real en el cual se hizo
+          junto a un equipo una aplicaion fullstack la cual se basa en una
+          plataforma de cursos
+        </p>
+        <div class="grid grid-cols-3 text-white mt-4">
+          <div>
+            <h4 class="font-semibold mb-2">BackEnd</h4>
+            <ul class="list-disc list-inside">
+              <li>Node.js</li>
+              <li>Express</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-2">FrontEnd</h4>
+            <ul class="list-disc list-inside">
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Tailwind</li>
+              <li>Firebase</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-2">Base de Datos</h4>
+            <ul class="list-disc list-inside">
+              <li>Mongoose</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+        </div>
+        <a
+          href="https://www.linkedin.com/in/gian-carlo-ruiz-pati%C3%B1o-320270183/"
+          class="text-white hover:underline mt-4 inline-block"
+          >Ver más detalles</a
+        >
+      </div>
+
+      <!-- Proyecto 2 -->
+      <div
+        class="bg-gray-700 shadow-lg rounded-lg p-8 transition transform hover:scale-105"
+      >
+        <h3 class="text-xl font-semibold mb-4 text-white">Back con Go</h3>
+        <p class="text-white">
+          Un back de un CURD hecho con con y el enrutador de gorilla mux, el orm
+          de go GORM y contenedores de docker como opcion si no se desea hacer
+          descargas localmente
+        </p>
+        <div class="grid grid-cols-3 text-white mt-4">
+          <div>
+            <h4 class="font-semibold mb-2">BackEnd</h4>
+            <ul class="list-disc list-inside">
+              <li>Go</li>
+              <li>Gorilla mux</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-2">Contenedor de docker</h4>
+            <ul class="list-disc list-inside">
+              <li>Imagen de postgreSQL con su configuracion</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-2">Base de Datos</h4>
+            <ul class="list-disc list-inside">
+              <li>postgreSQL</li>
+              <li>gorm</li>
+            </ul>
+          </div>
+        </div>
+        <a
+          href="https://www.linkedin.com/in/gian-carlo-ruiz-pati%C3%B1o-320270183/"
+          class="text-white hover:underline mt-4 inline-block"
+          >Ver más detalles</a
+        >
+      </div>
+
+      <!-- Agregar más proyectos aquí -->
+    </div>
+  </div>
+</section>
+
+<Contact/>
+<!-- Pie de página -->
+<footer class="bg-gray-800 text-white py-6">
+  <div class="container mx-auto text-center">
+    <p>&copy; 2023 Desarrollador Web | Todos los derechos reservados</p>
+  </div>
+</footer>
